@@ -12,3 +12,10 @@ def binary_search(arr, target):
 
 
     return -1  # not found
+
+
+    if n in range(6, 21) or n % 2 !=0:
+        return "Not Weird"
+
+    else:
+        return "Weird"
