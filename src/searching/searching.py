@@ -22,15 +22,15 @@ def binary_search(arr, target):
 
         mid = (high + low) // 2
 
-        # Check if x is present at mid
+        # Check if target is present at mid
         if arr[mid] < target:
             low = mid + 1
 
-        # If x is greater, ignore left half
+        # If target is greater, ignore left half
         elif arr[mid] > target:
             high = mid - 1
 
-        # If x is smaller, ignore right half
+        # If target is smaller, ignore right half
         else:
             return mid
 
