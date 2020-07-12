@@ -12,7 +12,7 @@ There are two common searching algorithms that developers are often introduced t
 
 Sometimes referred to as sequential search, this algorithm is fairly straightforward. Given a set of data, traverse the dataset one item at a time until either you find the item you are looking for OR check every item in the set and verify the item you are looking for is not there.
 
-### Binary Search
+### _Binary Search_
 
 The process of performing a binary search has a couple of extra steps. First, there is a *precondition* that the set of data you are searching is ***already sorted*** (alphabetically, numerically, etc). Then, the steps to search are:
 

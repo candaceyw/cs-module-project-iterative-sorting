@@ -6,9 +6,10 @@
 # Verbalize your thought process as much as possible before writing
 # any code. Run through the UPER problem solving framework while going through your thought process.
 
+
 def sum_arr(arr):
     min_nums = []
-# loop through main array
+    # loop through main array
     for inner_arr in arr:
         min_nums.append(min(inner_arr))
 
